@@ -54,3 +54,28 @@ let navMenu=$('.dropdown');
 menuBtn.addEventListener('click',()=>{
   navMenu.classList.toggle('none')
 })
+
+
+let next=$('.next');
+let back=$('.back');
+let cards=$('#testimonials-cards');
+
+let x=0;
+
+next.addEventListener('click', (event)=>{
+  x++
+  if(x>$$('.testimonials__wrapper__cards-card').length-1){
+    x=0;
+    }
+  
+  cards.style.transform=`translateX(${-x*1250}px)`
+})
+
+back.addEventListener('click', (event)=>{
+  x--
+  if(x<0){
+  x=$$('.testimonials__wrapper__cards-card').length-1;
+  }
+  cards.style.transform=`translateX(${-x*1250}px)`
+})
+

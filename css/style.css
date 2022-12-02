@@ -894,4 +894,93 @@ img {
   position: relative;
   bottom: -20px;
   right: 5em;
+}
+
+#testimonials {
+  height: 800px;
+}
+#testimonials .container .testimonials__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+#testimonials .container .testimonials__wrapper-title {
+  text-transform: uppercase;
+  color: #4353ff;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+#testimonials .container .testimonials__wrapper-text {
+  display: block;
+  font-size: 44px;
+  line-height: 49px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  width: 580px;
+  margin-bottom: 70px;
+}
+#testimonials .container .testimonials__wrapper__cards {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease;
+}
+#testimonials .container .testimonials__wrapper__cards-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 1200px;
+}
+#testimonials .container .testimonials__wrapper__cards-card-img {
+  width: 485px;
+  height: 450px;
+  margin-right: 140px;
+}
+#testimonials .container .testimonials__wrapper__cards-card-info {
+  padding-top: 25px;
+  width: 583px;
+  height: 450px;
+}
+#testimonials .container .testimonials__wrapper__cards-card-info-text {
+  width: 565px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 50px;
+}
+#testimonials .container .testimonials__wrapper__cards-card-info-name h5 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#testimonials .container .testimonials__wrapper__cards-card-info-name p {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+}
+#testimonials .container .testimonials__wrapper-btn {
+  position: absolute;
+  right: 2em;
+  bottom: 3.2em;
+}
+#testimonials .container .testimonials__wrapper-btn .back, #testimonials .container .testimonials__wrapper-btn .next {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: black;
+  width: 45px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  transition: all 0.1s ease;
+}
+#testimonials .container .testimonials__wrapper-btn .back:active, #testimonials .container .testimonials__wrapper-btn .next:active {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
