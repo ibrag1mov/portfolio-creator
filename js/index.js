@@ -52,7 +52,7 @@ let menuBtn=$('.menu-btn');
 let navMenu=$('.dropdown');
 
 menuBtn.addEventListener('click',()=>{
-  navMenu.classList.toggle('none')
+  navMenu.classList.toggle('block')
 })
 
 

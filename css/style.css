@@ -435,8 +435,8 @@ img {
 
 .dropdown {
   position: absolute;
-  display: none;
   width: 100%;
+  display: none;
   max-width: 270px;
   margin: 200px;
   background: rgb(195, 195, 195);
@@ -444,6 +444,7 @@ img {
   border-radius: 8px;
   top: -7.5em;
   right: -3em;
+  z-index: 9999;
 }
 
 .dropdown__list {
@@ -523,7 +524,7 @@ img {
     background: rgb(195, 195, 195);
     background: linear-gradient(180deg, rgb(220, 220, 220) 0%, rgba(216, 216, 228, 0.8578781855) 51%, rgba(243, 254, 255, 0) 100%);
     top: -7.5em;
-    right: -3.7em;
+    right: -12.7em;
   }
   .dropdown__list {
     margin: 0;
@@ -591,7 +592,7 @@ img {
     background: linear-gradient(180deg, rgb(195, 195, 195) 0%, rgba(216, 216, 228, 0.8578781855) 51%, rgba(243, 254, 255, 0) 100%);
     border-radius: 8px;
     top: -7.5em;
-    right: -3.7em;
+    right: -12.7em;
   }
   .dropdown__list {
     margin: 0;
