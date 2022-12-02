@@ -1,7 +1,8 @@
 #faq{
-  height: 811px;
+  height: auto;
   background-color: #000;
   padding-top: 80px;
+  padding-bottom: 100px;
   
   .container{
     padding: 0;
@@ -39,16 +40,16 @@
           padding: 0;
 
           &-item{
+            transition: all 0.5s ease;
             position: relative;
             width: 584px;
             padding: 40px 0;
             border-bottom: 1px solid rgba(102, 102, 102, 0.685);
-            transition: all 0.5s ease;
-
+            
             &-title{
               font-size: 24px;
             }
-
+            
             &-btn{
               cursor: pointer;
               width: 40px;
@@ -59,6 +60,13 @@
               font-size: 24px;
               color: #fff;
               background-color: transparent;
+            }
+
+            &-text{
+              width: 500px;
+              font-size: 16px;
+              line-height: 28px;
+              font-weight: 400;
             }
           }
         }

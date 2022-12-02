@@ -79,12 +79,44 @@ back.addEventListener('click', (event)=>{
   cards.style.transform=`translateX(${-x*1250}px)`
 })
 
-let open=$$('.faq__wrapper__questions-list-item-btn');
-let TextContent=$$('.faq__wrapper__questions-list-item-text');
+let open=$('.btnQ');
+let open1=$('.btnQ1');
+let open2=$('.btnQ2');
+let open3=$('.btnQ3');
+let open4=$('.btnQ4');
+let open5=$('.btnQ5');
+let open6=$('.btnQ6');
+let open7=$('.btnQ7');
+let TextContent=$('.text-one');
+let TextContent1=$('.text-two');
+let TextContent2=$('.text-three');
+let TextContent3=$('.text-four');
+let TextContent4=$('.text-five');
+let TextContent5=$('.text-six');
+let TextContent6=$('.text-seven');
+let TextContent7=$('.text-eight');
 
-
-console.log(open);
-
-open.addEventListener('click',(event)=>{
-console.log(event.target);
+open.addEventListener('click',()=>{
+  TextContent.classList.toggle('none')
+})
+open1.addEventListener('click',()=>{
+  TextContent1.classList.toggle('none');
+})
+open2.addEventListener('click',()=>{
+  TextContent2.classList.toggle('none');
+})
+open3.addEventListener('click',()=>{
+  TextContent3.classList.toggle('none');
+})
+open4.addEventListener('click',()=>{
+  TextContent4.classList.toggle('none');
+})
+open5.addEventListener('click',()=>{
+  TextContent5.classList.toggle('none');
+})
+open6.addEventListener('click',()=>{
+  TextContent6.classList.toggle('none');
+})
+open7.addEventListener('click',()=>{
+  TextContent7.classList.toggle('none');
 })
