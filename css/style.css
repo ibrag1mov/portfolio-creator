@@ -381,6 +381,16 @@ img {
     padding: 0px;
   }
 }
+#loader {
+  background: #fff url(..//..//images/loader-n.gif) no-repeat center;
+  background-size: 500px;
+  background-position: center 18em;
+  height: 150vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 #header {
   box-shadow: 0 0 8px rgba(157, 157, 157, 0.386);
 }

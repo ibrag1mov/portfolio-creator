@@ -120,3 +120,9 @@ open6.addEventListener('click',()=>{
 open7.addEventListener('click',()=>{
   TextContent7.classList.toggle('none');
 })
+
+var loader=$('#loader');
+
+window.addEventListener("load", ()=>{
+  loader.style.display="none";
+})
