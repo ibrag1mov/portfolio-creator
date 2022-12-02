@@ -1,0 +1,132 @@
+#projects{
+
+  height: 900px;
+  padding: 80px 0;
+  .container{
+    overflow: hidden;
+    .projects__wrapper{
+      
+      &-title{
+        text-transform: uppercase;
+        // text-align: center;
+        color: #b16cea;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 25px;
+        font-weight: 700;
+      }
+
+      &__results{
+        display: flex;
+        justify-content: space-between;
+        &-text{
+          font-size: 54px;
+          line-height: 59px;
+          letter-spacing: 1px;
+          font-weight: 700;
+          width: 580px;
+        }
+        &-link{
+          width: 180px;
+          height: 58px;
+          background-color: #000;
+          color: #fff;
+          font-size: 18px;
+          line-height: 18px;
+          text-decoration: none;
+          padding: 19px 20px;
+          transition: all 0.3s ease;
+
+          &:hover{
+            opacity: 0.8;
+          }
+
+          &:active{
+            opacity: 0.7;
+          }
+        
+        }
+      }
+
+      &__carousel{
+        position: relative;
+        height: 658px;
+        padding-top: 65px;
+
+        &-btn{
+          position:   absolute;
+          bottom: 50px;
+          right: 20px;
+      
+          &-back,
+          &-next{
+            cursor: pointer;
+            font-size: 25px;
+            font-weight: 700;
+            color:#fff; 
+            background-color: black;
+            width: 60px;
+            height: 50px;
+            margin-left: 10px;
+
+            &:active{
+              opacity: 0.6;
+            }
+          }
+        }
+
+        &-cards{
+          display: flex;
+          position: absolute;
+          transition: all 0.4s ease;
+
+          &-card{
+            position: relative;
+            height: 468px;
+            width: 486px;
+            &:not(:last-child){
+              margin-right: 24px;
+            }
+
+            &-title{
+              font-size: 16px;
+              line-height: 14px;
+              letter-spacing: 4px;
+              -webkit-text-fill-color: #19a7ff;
+              -webkit-text-stroke-width: 1.3px;
+              margin-left: 32px;
+              text-transform: uppercase;
+            }
+
+            &-info{
+              margin-left: 32px;
+              font-size: 24px;
+              line-height: 26px;
+              font-weight: 700;
+              margin-bottom: 20px;
+            }
+
+            &-link{
+              position: absolute;
+              display: block;
+              text-decoration: none;
+              color: inherit;
+              margin-left: 32px;
+              margin-top: 20px;
+              font-size: 18px;
+              transition: all 0.2s ease;
+
+              &:hover{
+                margin-left: 32px;
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
+}
