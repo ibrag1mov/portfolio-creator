@@ -1,0 +1,39 @@
+.navbar{
+  width: 100%;
+  height: 80px;
+  // border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  &__menu{
+    width: 641px;
+
+    &__list{
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+
+      &__item{
+        
+        transition: color 0.3s ease;
+
+        &--link{
+         text-decoration: none;
+         color: inherit; 
+         font-size: 16px;
+         line-height: 28px;
+        }
+
+        &:hover{
+          color: coral;
+        }
+      }
+    }
+
+    .menu-btn{
+      display: none;
+    }
+  }  
+}

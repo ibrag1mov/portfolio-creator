@@ -1,0 +1,84 @@
+#hero{
+  height: 685px;
+
+  .container{
+    
+    .hero__wrapper{
+      display: flex;
+      justify-content: space-between;
+      
+      // border: 1px solid #000;
+      padding-top: 70px;
+
+
+      &-left{
+        width: 706px;
+        height: 635px;
+        padding-top: 55px;
+
+        &-title{
+          font-size: 72px;
+          line-height: 82px;
+          letter-spacing: 1px;
+          margin: 0;
+          font-weight: 700;
+          
+          &-coral{
+            display: block;
+            color: #ff8a56;
+          }
+        }
+
+        &-text{
+          width: 560px;
+          font-size: 22px;
+          line-height: 33px;
+          color: #666;
+          margin: 27px 0 38px 0;
+        }
+
+        &-link{
+          width: 370px;
+          height: 58px;
+          display: flex;
+          justify-content: space-between;
+
+          &-call{
+            width: 150px;
+            height: 58px;
+            background-color: #000;
+            color: #fff;
+            font-size: 18px;
+            line-height: 18px;
+            text-decoration: none;
+            padding: 19px 30px;
+            transition: all 0.3s ease;
+
+            &:hover{
+              opacity: 0.8;
+            }
+
+            &:active{
+              opacity: 0.7;
+            }
+          }
+
+          &-download{
+            width: 200px;
+            height: 58px;
+            color: inherit;
+            font-size: 18px;
+            line-height: 18px;
+            text-decoration: none;
+            padding: 19px 30px;
+            transition: all 0.2s ease;
+
+            &:hover{
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

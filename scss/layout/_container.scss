@@ -1,0 +1,39 @@
+.container{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// RESPONSIVE
+
+
+// @media only screen and (max-width: 1200px){
+//   .container{
+//   max-width: 1240px;
+//   width: 100%;
+//   margin: 0 auto;
+//   padding: 0 20px;
+// }
+// }desktop
+
+@media only screen and (max-width: 768px){
+  .container{
+  max-width: 768px;
+  padding: 0 20px;
+}
+}//tablet
+
+@media only screen and (max-width: 576px){
+  .container{
+  max-width: 576px;
+  padding: 0 10px;
+}
+}//mobile
+
+@media only screen and (max-width: 375px){
+  .container{
+  max-width: 375px;
+  padding: 0px;
+}
+}//mobile-sm
