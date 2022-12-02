@@ -1,0 +1,123 @@
+#education{
+  .container{
+    .education__wrapper{
+      width: 1200px;
+      height: 583px;
+      display: flex;
+      justify-content: space-between;
+
+   
+
+      &__left{
+        width: 575px;
+        
+        &-title{
+          display: block;
+          font-size: 36px;
+          line-height: 36px;
+          font-weight: 400;
+          margin-bottom: 70px;
+        }
+
+
+        &-list{
+          list-style-type: none;
+          padding: 0;
+
+
+          &-item{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 575px;
+            height: 94px;
+            transition: all 0.4s ease;
+            color: #666;
+            margin-bottom: 50px;
+            border-bottom: 1.5px solid rgba(102, 102, 102, 0.733);
+
+            &-img{
+              margin: 0;
+              padding: 0;
+              margin-left: 20px;
+              
+            }
+            
+            &-left-title{
+              margin: 0;
+              color: #000;
+            }
+            
+            &:hover{
+              // box-shadow: 0 2px 8px rgb(201, 201, 201);
+              transform: scale(1.05);
+            }
+            &-left{
+            position: relative;
+              &-text{
+                color: inherit;
+              }
+
+
+          
+            }
+            .right-img-one{
+              padding-left: 60px;
+            }
+
+            .right-img-one::before{
+              content: " ";
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              left: -0px;
+              background-image: url("../../images/space-fleet.svg");
+            }
+            .right-img-two{
+              padding-left: 60px;
+            }
+
+            .right-img-two::before{
+              content: " ";
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              left: -0px;
+              background-image: url("../../images/music-mash.svg");
+            }
+            .right-img-three{
+              padding-left: 60px;
+            }
+
+            .right-img-three::before{
+              content: " ";
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              left: -0px;
+              background-image: url("../../images/kingdom.svg");
+            }
+            &-right{
+              position: relative;
+              img{
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+              }
+
+              &-text{
+                position: relative;
+                bottom: -20px;
+                right: 5em;
+              }
+            }
+
+          }
+        }
+      }
+      
+      
+    }
+  }
+}

@@ -1,6 +1,6 @@
 #projects{
 
-  height: 900px;
+  height: 800px;
   padding: 80px 0;
   .container{
     overflow: hidden;
@@ -10,7 +10,7 @@
         text-transform: uppercase;
         // text-align: center;
         color: #b16cea;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 22px;
         letter-spacing: 4px;
         margin-bottom: 25px;
@@ -21,21 +21,21 @@
         display: flex;
         justify-content: space-between;
         &-text{
-          font-size: 54px;
-          line-height: 59px;
+          font-size: 44px;
+          line-height: 49px;
           letter-spacing: 1px;
           font-weight: 700;
           width: 580px;
         }
         &-link{
           width: 180px;
-          height: 58px;
+          height: 48px;
           background-color: #000;
           color: #fff;
           font-size: 18px;
           line-height: 18px;
           text-decoration: none;
-          padding: 19px 20px;
+          padding: 15px 20px;
           transition: all 0.3s ease;
 
           &:hover{
@@ -51,23 +51,23 @@
 
       &__carousel{
         position: relative;
-        height: 658px;
+        height: 608px;
         padding-top: 65px;
 
         &-btn{
           position:   absolute;
-          bottom: 50px;
+          bottom: 90px;
           right: 20px;
       
           &-back,
           &-next{
             cursor: pointer;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 700;
             color:#fff; 
             background-color: black;
-            width: 60px;
-            height: 50px;
+            width: 45px;
+            height: 40px;
             margin-left: 10px;
 
             &:active{
@@ -83,14 +83,14 @@
 
           &-card{
             position: relative;
-            height: 468px;
-            width: 486px;
+            height: 408px;
+            width: 426px;
             &:not(:last-child){
               margin-right: 24px;
             }
 
             &-title{
-              font-size: 16px;
+              font-size: 15px;
               line-height: 14px;
               letter-spacing: 4px;
               -webkit-text-fill-color: #19a7ff;
@@ -100,8 +100,8 @@
             }
 
             &-info{
-              margin-left: 32px;
-              font-size: 24px;
+              margin-left: 30px;
+              font-size: 20px;
               line-height: 26px;
               font-weight: 700;
               margin-bottom: 20px;
@@ -112,9 +112,9 @@
               display: block;
               text-decoration: none;
               color: inherit;
-              margin-left: 32px;
+              margin-left: 33px;
               margin-top: 20px;
-              font-size: 18px;
+              font-size: 17px;
               transition: all 0.2s ease;
 
               &:hover{

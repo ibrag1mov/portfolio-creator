@@ -25,7 +25,7 @@ bntBack.addEventListener('click', (evt)=>{
   if(i<0){
   i=$$('.carusel-project').length-2;
   }
-  projCards.style.transform=`translateX(${-i*510}px)`
+  projCards.style.transform=`translateX(${-i*420}px)`
 })
 
 btnNext.addEventListener('click', (evt)=>{
@@ -33,7 +33,7 @@ btnNext.addEventListener('click', (evt)=>{
   if(i>$$('.carusel-project').length-2){
   i=0
   }
-  projCards.style.transform=`translateX(${-i*510}px)`
+  projCards.style.transform=`translateX(${-i*450}px)`
 })
 
 
@@ -48,3 +48,9 @@ indicators.addEventListener('click', (e)=>{
   e.target.src=a;
 })
 
+let menuBtn=$('.menu-btn');
+let navMenu=$('.dropdown');
+
+menuBtn.addEventListener('click',()=>{
+  navMenu.classList.toggle('none')
+})

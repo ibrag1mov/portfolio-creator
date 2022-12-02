@@ -34,16 +34,16 @@
           text-transform: uppercase;
           text-align: center;
           color: #ff5e69;
-          font-size: 22px;
+          font-size: 20px;
           line-height: 22px;
           letter-spacing: 4px;
-          margin-bottom: 25px;
+          margin-bottom: 15px;
           font-weight: 700;
         }
   
         strong{
-          font-size: 54px;
-          line-height: 59px;
+          font-size: 44px;
+          line-height: 49px;
           letter-spacing: 1px;
           font-weight: 700;
         }
@@ -53,22 +53,22 @@
       &-card{
         position: relative;
         margin-top: 114px;
-        height: 381px;
+        height: 351px;
         list-style-type: none;
         padding: 0;
         display: flex;
         justify-content: space-between;
 
         &-item{
-          width: 335px;
-          height: 381px;
+          width: 285px;
+          height: 351px;
 
           &-icon{
             margin-left: 15px;
           }
 
           &-title{
-            font-size: 24px;
+            font-size: 20px;
             line-height: 26px;
             font-weight: 700;
           }
