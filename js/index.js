@@ -79,3 +79,12 @@ back.addEventListener('click', (event)=>{
   cards.style.transform=`translateX(${-x*1250}px)`
 })
 
+let open=$$('.faq__wrapper__questions-list-item-btn');
+let TextContent=$$('.faq__wrapper__questions-list-item-text');
+
+
+console.log(open);
+
+open.addEventListener('click',(event)=>{
+console.log(event.target);
+})
