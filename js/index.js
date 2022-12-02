@@ -35,3 +35,16 @@ btnNext.addEventListener('click', (evt)=>{
   }
   projCards.style.transform=`translateX(${-i*510}px)`
 })
+
+
+const indicators=$('.product__wrapper__carousel-indicators');
+const show=$('#img-one');
+
+
+let a="";
+indicators.addEventListener('click', (e)=>{
+  a=show.src;
+  show.src=e.target.src;
+  e.target.src=a;
+})
+
