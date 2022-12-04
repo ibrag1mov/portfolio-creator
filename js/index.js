@@ -23,14 +23,14 @@ let i=0;
 bntBack.addEventListener('click', (evt)=>{
   i--
   if(i<0){
-  i=$$('.carusel-project').length-2;
+  i=$$('.carusel-project').length-1;
   }
-  projCards.style.transform=`translateX(${-i*420}px)`
+  projCards.style.transform=`translateX(${-i*450}px)`
 })
 
 btnNext.addEventListener('click', (evt)=>{
   i++
-  if(i>$$('.carusel-project').length-2){
+  if(i>$$('.carusel-project').length-1){
   i=0
   }
   projCards.style.transform=`translateX(${-i*450}px)`

@@ -97,8 +97,9 @@
 
 @media only screen and (max-width: 1200px){
   #hero {
-    padding-top: 45px;
-    height: 485px;
+    padding-top: 85px;
+    height: 585px;
+
   
     .container {
       .hero__wrapper {
@@ -192,10 +193,11 @@
 // }desktop
 
 
-@media only screen and (max-width: 968px){
+@media only screen and (max-width: 978px){
   #hero {
     padding-top: 40px;
-    height: 355px;
+    height: 425px;
+    padding-bottom: 0px;
   
     .container {
       .hero__wrapper {
@@ -397,13 +399,13 @@
         &-left {
           position: relative;
           top: 22rem;
-          width: 370px;
+          width: 270px;
           height: 535px;
           margin: 0 auto;
           padding-top: 25px;
   
           &-title {
-            font-size: 28px;
+            font-size: 20px;
             line-height: 32px;
             letter-spacing: 1px;
             margin: 0;
@@ -417,9 +419,9 @@
           }
   
           &-text {
-            width: 370px;
-            font-size: 14px;
-            line-height: 20px;
+            width: 270px;
+            font-size: 13px;
+            line-height: 17px;
             color: #666;
             text-align: center;
             margin: 17px 0 28px 0;
@@ -440,8 +442,8 @@
               font-size: 12px;
               line-height: 15px;
               text-decoration: none;
-              padding: 12px 19px;
-              margin-left: 50px;
+              padding: 12px 25px;
+              margin-left: 20px;
               transition: all 0.3s ease;
   
               &:hover {
@@ -486,10 +488,115 @@
     }
   }
 }//mobile
+@media only screen and (max-width: 431px){
+  #hero {
+    height: 685px;
+    padding-top: 70px;
+  
+    .container {
+      .hero__wrapper {
+        display: block;
+        // justify-content: space-between;
+  
+        // border: 1px solid #000;
+        padding-top: 70px;
+  
+        &-left {
+          position: relative;
+          top: 22rem;
+          width: 270px;
+          height: 535px;
+          margin: 0 auto;
+          padding-top: 25px;
+  
+          &-title {
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 1px;
+            margin: 0;
+            text-align: center;
+            font-weight: 700;
+  
+            &-coral {
+              display: block;
+              color: #ff8a56;
+            }
+          }
+  
+          &-text {
+            width: 270px;
+            font-size: 13px;
+            line-height: 17px;
+            color: #666;
+            text-align: center;
+            margin: 17px 0 28px 0;
+          }
+  
+          &-link {
+            width: 320px;
+            height: 58px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+  
+            &-call {
+              width: 120px;
+              height: 40px;
+              background-color: #000;
+              color: #fff;
+              font-size: 12px;
+              line-height: 15px;
+              text-decoration: none;
+              padding: 12px 25px;
+              margin-left: 20px;
+              transition: all 0.3s ease;
+  
+              &:hover {
+                opacity: 0.8;
+              }
+  
+              &:active {
+                opacity: 0.7;
+              }
+            }
+  
+            &-download {
+              width: 180px;
+              height: 48px;
+              color: inherit;
+              font-size: 12px;
+              line-height: 18px;
+              text-decoration: none;
+              padding: 12px 20px;
+              transition: all 0.2s ease;
+  
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+  
+        &-right {
+          width: 200px;
+          padding-left: 0px;
+          img {
+            position: absolute;
+            top:100px;
+            width: 280px !important;
+            height: 400px;
+            // vertical-align: middle;  
+            // object-fit: cover !important;
+          }
+        }
+      }
+    }
+  }
+}//mobile
 
 @media only screen and (max-width: 375px){
   #hero {
-    height: 485px;
+    height: 585px;
     padding-top: 70px;
   
     .container {
@@ -502,16 +609,16 @@
         padding-top: 0px;
   
         &-left {
-          margin: 0;
+
           position: relative;
           top: 22rem;
-          width: 230px;
+          width: 200px;
           height: 535px;
           margin: 0;
           padding-top: 0px;
   
           &-title {
-            width:220px;
+            width:200px;
             font-size: 20px;
             line-height: 25px;
             letter-spacing: 1px;
@@ -526,7 +633,7 @@
           }
   
           &-text {
-            width: 220px;
+            width: 200px;
             font-size: 12px;
             line-height: 18px;
             color: #666;
@@ -535,7 +642,7 @@
           }
   
           &-link {
-            width: 100px;
+            width: 150px;
             height: 58px;
             margin: 0 auto;
             display: flex;
@@ -572,6 +679,7 @@
               display: block;
               margin-top: 20px;
               width: 150px;
+              text-align: center;
               height: 38px;
               color: inherit;
               font-size: 12px;
