@@ -1,9 +1,10 @@
 #loader{
   background: #fff url(..//..//images/loader-n.gif) no-repeat center;
   background-size: 500px;
-  background-position: center 15em;
-  height: 150vh;
+  background-position: center 12em;
+  height: 100vh;
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 10000;
 }
+
